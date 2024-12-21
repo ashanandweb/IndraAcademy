@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indra Academy Annual Sports</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .carousel {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .carousel-images img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+        }
+
+        footer {
+            background-color: #004aad;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .carousel-images img {
+                height: 200px;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+
+        .wraper{
+            display: flex;
+            flex-direction: row;
+        }
+
+         .content {
+            padding: 10px;
+            /*border-radius: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+            width: 48%; 
+        }
+
+        .image {
+            flex: 1;
+            padding: 0;
+           /* border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+            width: 48%; 
+            
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .content, .image {
+                width: 100%; /* Full width on smaller screens */
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Indra Academy Logo">
+            <h1>Indra Academy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <div id="home" class="carousel">
+        <div class="carousel-images">
+            <!-- 9 Images for Carousel -->
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+<img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+            <img src="9.jpg" alt="Image 9">
+
+
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Program</h2>
+        <div class="wraper">
+           <div class="content">
+            <h2>About the Event</h2>
+            <p>
+                The Annual Sports Day at Indra Academy is a day to celebrate athleticism, teamwork, and school spirit.
+                Students participate in a variety of events, from individual races to team sports. It is a day filled with excitement,
+                unity, and friendly competition.
+          
+              
+<br><br>Indra Academy’s Annual Sports is one of the most eagerly awaited events of the year, showcasing the incredible talent and sportsmanship of our students. This grand event is not just about competition, but about fostering teamwork, resilience, and the spirit of fair play.<br><br>
+
+Every year, our school grounds come alive with exciting sports activities, including track and field events, team sports, and individual competitions. Students from all grades come together to participate in various athletic events, where they demonstrate their skills, push their limits, and strive for excellence.<br><br>
+
+The Annual Sports event is not only a celebration of athletic achievements but also a day for the entire school community to unite and cheer for their peers. It encourages a healthy lifestyle, boosts self-confidence, and teaches the values of discipline and perseverance.<br><br>
+
+In addition to the thrilling sports activities, there are also awards and prizes presented to top performers, highlighting their dedication and hard work. From sprint races to team relays, the event offers something for everyone, ensuring a memorable experience for participants and spectators alike.<br><br>
+
+Join us as we celebrate the spirit of sportsmanship, excellence, and unity at Indra Academy’s Annual Sports!<br><br>
+
+This description highlights the key aspects of the event and promotes it in an engaging way for the website visitors. You can further customize it with any specific details about your school’s event.
+
+Every year, our school grounds come alive with exciting sports activities, including track and field events, team sports, and individual competitions. Students from all grades come together to participate in various athletic events, where they demonstrate their skills, push their limits, and strive for excellence.
+
+The Annual Sports event is not only a celebration of athletic achievements but also a day for the entire school community to unite and cheer for their peers. It encourages a healthy lifestyle, boosts self-confidence, and teaches the values of discipline and perseverance.
+
+In addition to the thrilling sports activities, there are also awards and prizes presented to top performers, highlighting their dedication and hard work. From sprint races to team relays, the event offers something for everyone, ensuring a memorable experience for participants and spectators alike.
+
+Join us as we celebrate the spirit of sportsmanship, excellence, and unity at Indra Academy’s Annual Sports!
+
+
+            </p>
+        </div>
+
+        <!-- Image Column -->
+        <div class="image">
+            <img src="img.jpg" alt="Sports Event">
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Prize Distribution Section -->
+    <div id="prizes" class="carousel">
+        <div class="carousel-images">
+            <img src="c.jpg" alt="Prize 1">
+            <img src="a.jpeg" alt="Prize 2">
+            <img src="b.jpeg" alt="Prize 3">
+            <img src="d.jpeg" alt="Prize 4">
+            <img src="e.jpeg" alt="Prize 5">
+            <img src="f.jpeg" alt="Prize 6">
+            <img src="g.jpeg" alt="Prize 7">
+            <img src="h.jpeg" alt="Prize 8">
+            <img src="i.png" alt="Prize 9">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Indra Academy. All Rights Reserved. | Contact: info@indraacademy.com</p>
+    </footer>
+
+    <script>
+        // Carousel Functionality (Auto-Sliding and Infinite Looping)
+        function startCarousel(containerSelector) {
+            const container = document.querySelector(containerSelector);
+            const images = container.querySelector(".carousel-images");
+            const imageCount = images.children.length;
+            let currentIndex = 0;
+
+            // Function to update the carousel to the correct image
+            function updateCarousel() {
+                images.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            // Auto-rotate every 3 seconds
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % imageCount; // Loop back to the first image after the last one
+                updateCarousel();
+            }, 3000); // Change image every 3 seconds
+        }
+
+        // Start the carousels after DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", () => {
+            startCarousel(".carousel");
+        });
+    </script>
+</body>
+</html>
